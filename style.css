@@ -1,0 +1,30 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: green;
+}
+
+table {
+    border: 1px solid brown;
+    margin: auto;
+}
+
+thead {
+    color: khaki;
+}
+
+td {
+    background-color: azure;
+    color: darkblue;
+}
+
+.rt:hover, h1, h2, h3 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
